@@ -1,0 +1,8 @@
+{
+  "name": "Router",
+  "model": "anthropic/claude-sonnet-4.6",
+  "maxSteps": 20,
+  "maxCost": 0.5,
+  "showBanner": true,
+  "display": { "toolDisplay": "grouped", "inputStyle": "block", "loader": { "text": "Routing", "style": "spinner" } }
+}

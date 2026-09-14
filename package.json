@@ -1,0 +1,24 @@
+{
+  "name": "openrouter-fde-agent",
+  "version": "0.1.0",
+  "description": "Terminal agent on @openrouter/agent with live OpenRouter routing/cost tools",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "dev": "tsx watch src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Matthew Karsten",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@openrouter/agent": "^0.11.0",
+    "glob": "^13.0.6",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
